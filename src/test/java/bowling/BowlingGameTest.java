@@ -8,11 +8,11 @@ import java.util.stream.IntStream;
 import static org.junit.Assert.assertEquals;
 
 public class BowlingGameTest {
-    private Game game;
+    private BowlingGame game;
 
     @Before
     public void setUp() {
-        game = new Game();
+        game = new BowlingGame();
     }
 
     @Test(expected = MaxRollesExeededException.class)

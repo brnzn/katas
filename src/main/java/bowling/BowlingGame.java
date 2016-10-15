@@ -1,6 +1,6 @@
 package bowling;
 
-public class Game {
+public class BowlingGame {
     private int[] rolles = new int[21];
     private  int currentRoll = 0;
 
