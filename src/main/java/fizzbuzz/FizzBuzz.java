@@ -7,7 +7,8 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class FizzBuzz {
-    private List<Matcher> matchers = Arrays.asList(new Matcher(n -> n % 3 == 0 , n -> "fizz"),
+    private List<Matcher> matchers = Arrays.asList(
+            new Matcher(n -> n % 3 == 0 , n -> "fizz"),
             new Matcher(n -> n % 5 == 0 , n -> "buzz"),
             new Matcher(n -> n % 3 > 0 && n % 5 > 0 , String::valueOf));
 
